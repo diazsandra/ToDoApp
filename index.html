@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>TODO Application</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href='https://fonts.googleapis.com/css?family=Poiret+One&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+</head>
+<body>
+
+	<section id="todo">
+		<div class="fondo">
+			<h1 class="text-center">TO DO APP</h1>
+		</div>
+		<div class="container container-fluid">
+			<form class="formulario" action="">
+				<textarea class="form-control" placeholder="Añade tu nueva tarea" id="tareaInput" required data-validation-required-message="Por favor introduce tu mensaje." rows="2"></textarea> 
+				<br>
+				<button type="button" id="btn-agregar" class="boton btn btn-primary" value="Añadir tarea"> <i class="fa fa-plus-circle" aria-hidden="true"></i> Añadir tarea </button>
+			</form>			
+		</div>
+	</section>
+
+	<section id="tareas">
+		<div class="container container-fluid">
+			<ul class="lista" id="lista">
+				<li>
+					<div class="row">
+						<div class="col-xs-10 col-sm-11">
+							<a href="#">Tarea 1 </a>
+						</div>
+						<div class="col-xs-2 col-sm-1">
+							<a href="#"><i class="fa fa-trash-o trash" aria-hidden="true"></i> </a>
+						</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="row">
+						<div class="col-xs-10 col-sm-11">
+							<a href="#">Tarea 2 </a>
+						</div>
+						<div class="col-xs-2 col-sm-1">
+							<a href="#"><i class="fa fa-trash-o trash" aria-hidden="true"></i> </a>
+						</div>
+					</div>
+				</li>
+				
+				<li>
+					<div class="row">
+						<div class="col-xs-10 col-sm-11">
+							<a href="#">Tarea 3 </a>
+						</div>
+						<div class="col-xs-2 col-sm-1">
+							<a href="#"><i class="fa fa-trash-o trash" aria-hidden="true"></i> </a>
+						</div>
+					</div>
+				</li>
+			</ul>				
+		</div>
+	</section>
+
+
+	<script src="js/main.js"></script>
+</body>
+</html>

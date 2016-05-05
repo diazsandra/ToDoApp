@@ -1,0 +1,67 @@
+body {
+	font-family: 'Poiret One', cursive;
+	font-weight: bolder;
+}
+
+#todo {
+	height: 250px;
+}
+
+.fondo {
+	background-color: rgba(73, 43, 58, .7);
+	padding: 1%;
+	color: #E9C0CA;
+	margin-bottom: 3%;
+}
+
+.formulario textarea [type=text] {
+	margin-top: 5%;
+	width: 100%;
+}
+
+.formulario textarea[type=text].error {
+	border: 5px solid #D32F2F !important;
+	color: red !important;
+}
+
+
+#tareaInput {
+	width: 100%;
+}
+
+.boton {
+	margin-top: 2%;
+	background-color: rgba(73, 43, 58, .7)!important;
+	color: #E9C0CA;
+	box-shadow: #492B3A;
+	float: right;
+}
+
+#tareas {
+	height: 300px;
+}
+
+ul {
+	list-style: none;
+	margin-top: 5%;
+	margin-left: -2%;
+	width: 100%;
+}
+
+li {
+	padding-left: 3%;
+	margin-top: 1%;
+	background-color: rgba(73, 43, 58, .5);
+	border-bottom: 1px solid #B6B6B6;
+}
+li a {
+	color: #212121;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+}
+ 
+li a:hover {
+	text-decoration: line-through;
+}
+
